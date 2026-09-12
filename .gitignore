@@ -1,1 +1,4 @@
 /.venv
+/raw_images
+/processed_images
+/data
