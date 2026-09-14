@@ -27,7 +27,9 @@ https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=shari
 git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git"
 ```
 2. Dentro da pasta do projeto crie a pasta `data/raw`.
-3. Extraia o dataset baixado e copie **as imagens** da pasta `/casting_512x512/def_front` para dentro da pasta `data/raw`.
+3. Extraia o dataset baixado e copie **as imagens** 
+-> da pasta `/casting_512x512/def_front` 
+-> para dentro da pasta `data/raw`.
 - Configuração:
 4. Crie e ative um ambiente virtual:
 
@@ -65,7 +67,7 @@ projeto/
 └── readme.md
 ```
 
-## 6. Sprints e Branch
+## 6. Sprints e Branchs
 
  - Sprint 1:`development` **Configuração do repositório**
  - Sprint 2:`estruturacao-e-leitura` **leitura de imagens em lote**
