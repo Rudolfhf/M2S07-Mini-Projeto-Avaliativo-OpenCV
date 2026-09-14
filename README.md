@@ -11,7 +11,7 @@ Esse trabalho tem como objetivo aplicar técnicas de redução de ruídos, conve
 As imagens são parte do dataset que contém fotos reais de peças de fundição metálica, classificadas em duas categorias: 
 com defeito (`def_front`) e sem defeito (`ok_front`).
 Elas podem ser baixadas através do link: 
-https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=sharing
+- https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=sharing
 
 ## 2. Bibliotecas e Tecnologias utilizadas
 - Python 3.10.1
@@ -30,8 +30,8 @@ git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git"
 ```
 2. Dentro da pasta do projeto crie a pasta `data/raw`.
 3. Extraia o dataset baixado e copie **as imagens** 
--> da pasta `/casting_512x512/def_front` 
--> para dentro da pasta `data/raw`.
+- Da pasta ->  `/casting_512x512/def_front` 
+- Para a pasta -> `data/raw`.
 
 #### Configuração Windows:
 4. Crie e ative um ambiente virtual:
