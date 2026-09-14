@@ -33,10 +33,10 @@ git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git"
 - Configuração:
 4. Crie e ative um ambiente virtual:
 
-​```bash
+```bash
 python -m venv venv
 venv\Scripts\activate
-​```
+```
 
 5. Instale as dependências:
 ```bash
