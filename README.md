@@ -1,5 +1,5 @@
-# Mini Projeto Avaliativo - Módulo 2: 
-## Pipeline de Pré-processamento de imagens com OpenCV
+# Pipeline de Pré-processamento de imagens com OpenCV
+## Mini Projeto Avaliativo - Módulo 2:
  
  **Aluno:** Rudolf Hoffmann<br>
  **Professor:** Junior Prado<br>
