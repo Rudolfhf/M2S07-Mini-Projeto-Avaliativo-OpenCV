@@ -10,7 +10,8 @@ Esse trabalho tem como objetivo aplicar técnicas de redução de ruídos, conve
 As imagens são parte do dataset público *Casting Product Image Data for Quality Inspection*, 
 que contém fotos reais de peças de fundição metálica, classificadas em duas categorias: 
 com defeito (`def_front`) e sem defeito (`ok_front`).
-Elas podem ser baixadas através do link: https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=sharing
+Elas podem ser baixadas através do link: 
+https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=sharing
 
 ## 2. Bibliotecas e Tecnologias utilizadas
 - Python 3.10.1
@@ -19,13 +20,12 @@ Elas podem ser baixadas através do link: https://drive.google.com/file/d/1K5gNx
 - Pathlib
 - os
 
-
 ## 3. Instalação
 - Estrutura:
 1. Clone o repositório:
 git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git".
 2. Dentro da pasta do projeto crie a pasta `data/raw`.
-3. Extraia as imagens do dataset (peças de fundição metálica) para dentro da pasta `data/raw`.
+3. Extraia as imagens do dataset (peças de fundição metálica, `/raw_images/def_front`) para dentro da pasta `data/raw`.
 - Configuração:
 4. Crie e ative um ambiente virtual:
 python -m venv venv
@@ -46,6 +46,7 @@ pip install -r requirements.txt
 6. Padronização para formato 256x256
 
 ## 5. Estrutura de pastas
+```
 projeto/
 ├── data/
 │ ├── raw/ # imagens originais do dataset
@@ -54,6 +55,7 @@ projeto/
 ├── requirements.txt
 ├── .gitignore
 └── readme.md
+```
 
 ## 6. Sprints e Branch
 
