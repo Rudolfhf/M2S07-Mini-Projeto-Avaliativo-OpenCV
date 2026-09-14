@@ -84,13 +84,13 @@ projeto/
 **Suavização — Bilateral em vez de Gaussian/Median:**  
 Testamos os três filtros na mesma imagem de amostra. O Bilateral Filter, com parâmetros 
 ajustados (`sigmaColor=20, sigmaSpace=20`), apresentou o melhor equilíbrio: suaviza a 
-textura interna da peça sem borrar as bordas dos aros metálicos — algo que testes com 
+textura interna da peça sem borrar as bordas dos aros metálicos, algo que testes com 
 `sigma` mais alto (75) não conseguiram (as bordas ficaram visivelmente borradas).
 
 **Limiarização — Adaptive Threshold em vez de Otsu:**  
 Testamos o método de Otsu, mas ele não separou adequadamente a peça do fundo: a imagem 
 apresenta três zonas distintas de intensidade (fundo em cinza médio, aro metálico claro 
-e região central escura), e o Otsu — por calcular um único limiar global — agrupou 
+e região central escura), e o Otsu — por calcular um único limiar global, agrupou 
 incorretamente o fundo com o aro claro. O Adaptive Threshold, por calcular o limiar 
 localmente em blocos de vizinhança, lidou melhor com essa variação de iluminação/contraste.
 
