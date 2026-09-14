@@ -1,11 +1,11 @@
-# Mini Projeto Avaliativo de Machine Learning - Módulo 2: Pipeline de pré-processamento de imagens com OpenCV
+# Mini Projeto Avaliativo - Módulo 2: Pipeline de Pré-processamento de imagens com OpenCV
  
  **Aluno:** Rudolf Hoffmann<br>
  **Professor:** Junior Prado<br>
  **Curso:** Machine Learning e Visão Computacional - Programa (SCTEC)
 
 ## 1. Descrição do Mini Projeto
-Esse trabalho tem como objetivo aplicar técnicas de redução de ruídos, conversão de cores e detecção de bordas para padronizar as imagens que serão utilizadas por algorítimos para treinar um modelo preditivo. 
+Esse trabalho tem como objetivo aplicar técnicas de redução de ruídos, conversão de cores e detecção de bordas para padronizar as imagens que serão utilizadas por algoritmos para treinar um modelo preditivo. 
 
 As imagens são parte do dataset que contém fotos reais de peças de fundição metálica, classificadas em duas categorias: 
 com defeito (`def_front`) e sem defeito (`ok_front`).
@@ -18,7 +18,7 @@ https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=shari
 - Numpy 2.2.6
 - Pathlib
 - os
-- Editor de execução: VSCODE
+- Editor: Vscode
 
 ## 3. Instalação
 #### Estrutura:
@@ -32,12 +32,12 @@ git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git"
 -> da pasta `/casting_512x512/def_front` 
 -> para dentro da pasta `data/raw`.
 
-#### Configuração:
+#### Configuração Windows:
 4. Crie e ative um ambiente virtual:
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 5. Instale as dependências:
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 0. Leitura em lote das imagens (com extensão válida)
 1. Conversão para Grayscale
 2. Filtro para redução de ruído [Suavização Bilateral Blur]
-3. Limiarização (Threshold) Adaptative [ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY]
+3. Limiarização (Threshold) Adaptive [ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY]
 4. Destaque de característica com Canny [20,100]
 5. Operação Morfológica morphologyEx [MORPH_CLOSE] com Kernel[5,5]
 6. Padronização para formato 256x256
@@ -69,7 +69,7 @@ projeto/
 └── readme.md
 ```
 
-## 6. Sprints e Branchs
+## 6. Sprints e Branches
 
  - Sprint 1:`development` **Configuração do repositório**
  - Sprint 2:`estruturacao-e-leitura` **leitura de imagens em lote**
