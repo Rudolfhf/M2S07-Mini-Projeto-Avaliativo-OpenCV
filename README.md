@@ -7,8 +7,7 @@
 ## 1. Descrição do Mini Projeto
 Esse trabalho tem como objetivo aplicar técnicas de redução de ruídos, conversão de cores e detecção de bordas para padronizar as imagens que serão utilizadas por algorítimos para treinar um modelo preditivo. 
 
-As imagens são parte do dataset público *Casting Product Image Data for Quality Inspection*, 
-que contém fotos reais de peças de fundição metálica, classificadas em duas categorias: 
+As imagens são parte do dataset que contém fotos reais de peças de fundição metálica, classificadas em duas categorias: 
 com defeito (`def_front`) e sem defeito (`ok_front`).
 Elas podem ser baixadas através do link: 
 https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=sharing
@@ -23,17 +22,23 @@ https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=shari
 ## 3. Instalação
 - Estrutura:
 1. Clone o repositório:
-git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git".
+```bash
+git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git"
+```
 2. Dentro da pasta do projeto crie a pasta `data/raw`.
-3. Extraia as imagens do dataset (peças de fundição metálica, `/raw_images/def_front`) para dentro da pasta `data/raw`.
+3. Extraia o dataset baixado e copie **as imagens** da pasta `/casting_512x512/def_front` para dentro da pasta `data/raw`.
 - Configuração:
 4. Crie e ative um ambiente virtual:
+​```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
+​```
 5. Instale as dependências:
+```bash
 pip install -r requirements.txt
+```
 6. Abra o notebook `pipeline.ipynb` no VS Code ou Jupyter.
-7. Execute o processamento em lote no terceiro bloco:
+7. Execute o processamento em lote no segundo bloco:
 
 
 ## 4. Pipeline de pré-processamento
