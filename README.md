@@ -18,9 +18,10 @@ https://drive.google.com/file/d/1K5gNxQ7RXA-nb4boNzPYQTJlRvJyYBD1/view?usp=shari
 - Numpy 2.2.6
 - Pathlib
 - os
+- Editor de execução: VSCODE
 
 ## 3. Instalação
-- Estrutura:
+#### Estrutura:
 1. Clone o repositório:
 
 ```bash
@@ -30,7 +31,8 @@ git clone "https://github.com/Rudolfhf/M2S07-Mini-Projeto-Avaliativo-OpenCV.git"
 3. Extraia o dataset baixado e copie **as imagens** 
 -> da pasta `/casting_512x512/def_front` 
 -> para dentro da pasta `data/raw`.
-- Configuração:
+
+#### Configuração:
 4. Crie e ative um ambiente virtual:
 
 ```bash
