@@ -90,7 +90,7 @@ textura interna da peça sem borrar as bordas dos aros metálicos, algo que test
 **Limiarização — Adaptive Threshold em vez de Otsu:**  
 Testamos o método de Otsu, mas ele não separou adequadamente a peça do fundo: a imagem 
 apresenta três zonas distintas de intensidade (fundo em cinza médio, aro metálico claro 
-e região central escura), e o Otsu — por calcular um único limiar global, agrupou 
+e região central escura), e o Otsu por calcular um único limiar global, agrupou 
 incorretamente o fundo com o aro claro. O Adaptive Threshold, por calcular o limiar 
 localmente em blocos de vizinhança, lidou melhor com essa variação de iluminação/contraste.
 
